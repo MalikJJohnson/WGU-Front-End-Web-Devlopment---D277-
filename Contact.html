@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" type="text/css" href="Footer.css">
+<script src="Site.js"></script>
+<style>
+    * {
+     box-sizing: border-box;
+   }
+   
+   .column {
+     float: left;
+     width: 100%;
+     padding: 10px;
+   }
+   
+   /* Clearfix (clear floats) */
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+   </style>
+</head>
+<body>
+    <div class="header"><a href="Index.html"><img src="Ohiologo.png" alt="logo"></a> <h1 class="welcome">Welcome to Ohio "The Heart of it All."</h1></h1></div>
+    <div class="nav"><a class="nav" href="Cleveland.html">Cleveland</a> <a class="nav" href="Columbus.html">Columbus</a> <a class="nav" href="Cincinatti.html">Cincinatti</a> <a class="nav" href="Dayton.html">Dayton</a> <a class="nav" href="Toledo.html">Toledo</a></div><br>
+
+        <div class="left"> <h2 class="welcome">Got A Question? Contact Us!</h2><br>
+            <img class="buckeyestate" src="contactus.jpg" alt="contacct"><br>
+            <div class="form">
+                <form action=" ">
+                    <label for="firstName">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Enter Your First Name" required><br>
+                    <label for="lastName">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name" required><br>
+                    <label for="email">Enter your email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br>
+                    <label for="confirmEmail">Confirm your email:</label><br>
+                    <input type="confemail" id="confirmEmail" name="confirmEmail" placeholder="Re-Enter Your Email" required><br>
+                    <label for="question">Ask a Question:</label><br>
+                    <textarea id="question" name="question" placeholder="What is your question?" required></textarea><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+        <div class="right"> 
+            <h2 class="welcome"> Follow Us On Social Media!</h2>
+                <div class="column">
+                    <ul class="socials">
+                        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li><br>
+                        <li><a href="https://www.Twitter.com" target="_blank">Twitter</a></li><br>
+                        <li><a href="https://www.Instagram.com" target="_blank">Instagram</a></li><br>
+                        <li><a href="https://www.Youtube.com" target="_blank">Youtube</a></li><br>
+                        <li><a href="https://www.Reddit.com" target="_blank">Reddit</a></li><br>
+                    </ul>
+                </div>
+        </div>
+        <div class="footer"><p>© 2024 Ohio Gov - MJJWGU D277. All rights reserved</p>
+            <p><a class="footerlinks" href="About.html">About Us</a></p>
+        </div>
+</body>
+</html>

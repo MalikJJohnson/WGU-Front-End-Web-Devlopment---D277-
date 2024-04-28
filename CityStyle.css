@@ -1,0 +1,161 @@
+body {
+     background-color: azure;
+}
+  
+div.header {
+    background-color: lightcoral;
+    background-image: url(flagbackground.jpg);
+    background-position:left;
+    background-size: cover;
+}
+  
+h1.welcome {
+  
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px darkred, 0 0 5px blue;
+    font-size: 75px;
+  
+}
+
+img.ohio{
+   
+    border-radius: 5px;
+    height: 100%;
+    float: left;
+
+}
+
+img.ohio {
+   
+    border-radius: 5px;
+    height: 10%;
+    background-position:left;
+
+}
+
+div.nav {
+    background-color:lightcyan;
+    border-radius: 5px;
+    height: 25px;
+    text-align: center;
+}
+
+a.nav {
+
+text-align: center;
+justify-content: center;
+
+}
+
+a.nav{
+
+    color: #0000cd;
+    text-shadow: none;
+}
+
+a.nav:hover {
+
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+
+}
+
+div.right1 {
+    background-color:rgb(245, 255, 255);
+    border-radius: 5px;
+    width: 25%;
+    height: 437px;
+    float: right;
+}
+
+div.right2 {
+    background-color:rgb(245, 255, 255);
+    border-radius: 5px;
+    width: 25%;
+    height: 437px;
+    float: right;
+    margin-bottom: auto;
+    margin-bottom: auto;
+}
+
+h2.welcome {
+   
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px darkred, 0 0 5px blue;
+
+}
+
+h3 {
+
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 5px darkred, 0 0 5px blue;
+    
+}
+
+div.left {
+    background-color: rgb(235, 255, 255);
+    border-radius: 5px;
+    width: 75%;
+    height: 875px;
+    float:left;
+}
+img.city {
+   
+    border-radius: 5px;
+    display: block;
+    height: 65%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p.cityinfo {
+
+    text-align: center;
+    padding: 1%;
+    font-size: 20px;
+
+}
+
+#OHtable {
+
+    position:relative;
+    top: 0%;
+    bottom: 2%;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+div.footer {
+    background-color:  rgb(250, 255, 255);
+    border-radius: 5px;
+    bottom: 0px;
+    width: 100%;
+    height: 8.5vh;
+    float: inline-end;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px darkred, 0 0 5px blue;
+    font-size: 15px;
+}
+
+a.footerlinks{
+
+    color: #0000cd;
+    text-shadow: none;
+}
+
+a.footerlinks:hover {
+
+    background-color: aliceblue;
+    text-align: center;
+
+}

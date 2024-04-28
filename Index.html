@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ohio Tourist Page</title>
+<link rel="stylesheet" type="text/css" href="IndexStyle.css">
+</head>
+<style>
+.mySlides {display:none;}
+
+    * {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+li.trivia {
+
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: medium;
+
+}
+
+li.pres {
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 70%;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<body>
+    <div class="header">
+      <a href="Index.html"><img class="ohio" src="Ohiologo.png" alt="logo"></a> 
+      <h1 class="welcome">Welcome to Ohio "The Heart of it All."</h1>
+    </div>
+      
+        <div class="nav">
+          <a class="nav" href="Cleveland.html">Cleveland</a>
+          <a class="nav" href="Columbus.html">Columbus</a> 
+          <a class="nav" href="Cincinatti.html">Cincinatti</a> 
+          <a class="nav" href="Dayton.html">Dayton</a> 
+          <a class="nav" href="Toledo.html">Toledo</a>
+        </div><br>
+
+    <div class="right">
+        <h2 class="welcome">Welcome To The State Of Ohio</h2><br>
+        <img class="buckeyestate" src="WelcometoOhio.jpg" alt="buckeyestate">
+        <p class="ohioinfo">The state of Ohio was offically founded on March 1st, 1803. The 17th state was founded after the Northwest Territory was divided in 1800 and reorganized into the Union. The State's Capital is Columbus, situated in the heart of Ohio.
+        Ohio having a growing population of 11.76 million is known for its inovation and ingenuity. Ohio is also a state rich in minerals thanks to Lake Erie, and is known for it's history of manufacturing.</p>
+        <table id="OHtable">
+            <tbody>
+                <tr>
+                    <th>Top Populated Cities</th>
+                    <th>Ohio's Signature Dishes</th>
+                    <th>Visit These Landmarks</th>
+                </tr>
+                <tr>
+                    <td>Cleveland</td>
+                    <td>Polish Boy</td>
+                    <td>Rock And Roll Hall Of Fame</td>
+                </tr>
+                <tr>
+                    <td>Columbus</td>
+                    <td>Buckeye Candy</td>
+                    <td>Ohio Stadium</td>
+                </tr>
+                <tr>
+                    <td>Cincinatti</td>
+                    <td>Cincinnati chili</td>
+                    <td>Great American Ball Park</td>
+                </tr>
+                <tr>
+                    <td>Dayton</td>
+                    <td>Square-cut pizza top</td>
+                    <td>Dayton Aviation Heritage National Historical Park</td>
+                </tr>
+                <tr>
+                    <td>Toledo</td>
+                    <td>Migas</td>
+                    <td>Fifth Third Field</td>
+                </tr>
+            </tbody>
+        </table>   
+    </div>
+    <div class="left1">
+        <h2 class="welcome">
+            Trivia
+        </h2>    
+            <div class="row">
+                <div class="column">
+                  <img src="cardinals.jpg" alt="Birds" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="carnations.jpg" alt="Flowers" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="flint.jpg" alt="Rocks" style="width:100%">
+                </div>
+              </div>
+              <p>
+                <ul>
+                    <li class="trivia">State's Bird is The Northern Cardinal</li><br>
+                    <li class="trivia">State's Flower are Red Carnation</li><br>
+                    <li class="trivia">State's Gemstone is Flint</li>
+                </ul>
+              </p>
+    </div><br>
+        <div class="left2">
+          <h2 class="welcome">
+            Presidents
+          </h2>       
+            <p class="president">Ohio is known for being a state full of Presidents! 7 United States Presidents were born in Ohio, the state has a reputation for being the home place for many great leaders.</p>  
+            <div class="row">
+              <div class="column2">
+                <ol>
+                  <li class="pres">ULYSSES S. GRANT 18th President</li><br>
+                  <li class="pres">RUTHERFORD B. HAYES 19th President</li><br>
+                  <li class="pres">JAMES A. GARFIELD 20th President</li><br>
+                  <li class="pres">BENJAMIN HARRISON 23rd President</li><br>
+                  <li class="pres">WILLIAM MCKINLEY 25th President</li><br>
+                  <li class="pres">WILLIAM H. TAFT 27th President</li><br>
+                  <li class="pres">WARREN G. HARDING 29th President</li><br>
+              </ol>
+              </div>
+              <div class="column2" style="max-width:215px">
+                <img class="mySlides" src="ugrant.jpg" style="width:100%">
+                <img class="mySlides" src="rhayes.jpg" style="width:100%">
+                <img class="mySlides" src="jgarfield.jpg" style="width:100%">
+                <img class="mySlides" src="bharrison.jpg" style="width:100%">
+                <img class="mySlides" src="wmckinley.jpg" style="width:100%">
+                <img class="mySlides" src="wtaft.jpg" style="width:100%">
+                <img class="mySlides" src="wharding.jpg" style="width:100%">
+              </div>
+          </div>  
+        </div>
+    </div><br>
+        <div class="footer"><p>© 2024 Ohio Gov - MJJWGU D277. All rights reserved</p>
+            <p><a class="footerlinks" href="Contact.html">Contact Us</a> <a class="footerlinks" href="About.html">About Us</a> </p>
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 5000); // Change image every 5 seconds
+            }
+        </script>      
+</body>
+</html>
